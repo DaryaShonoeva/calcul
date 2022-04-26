@@ -121,7 +121,7 @@ public class Main {
             throw new Exception("throws Exception");
         }
         if(status){
-            if(itog >=0){
+            if(itog >0){
                 String res  = toRoman(itog);
                 return res;
             } else{
