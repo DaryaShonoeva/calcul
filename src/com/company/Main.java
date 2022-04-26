@@ -48,7 +48,7 @@ public class Main {
         return num;
 
     }
-    private final static TreeMap<Integer, String> map = new TreeMap<Integer, String>();
+    final static TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 
     static {
 
